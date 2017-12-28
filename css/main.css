@@ -1,1 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+figure {
+ background-image: url(../assets/img/lasagna.jpg);
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size:cover;
+ height: 100vh;
+}
+
+h1{
+  position: relative;
+  top: 5em;
+  color: #195905;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
