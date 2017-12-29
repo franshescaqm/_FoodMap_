@@ -1,0 +1,17 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	}
+	
+	body {
+		font-family: 'Source Sans Pro', sans-serif;
+		text-align: center;
+	}
+
+	.map {
+		outline: 2px solid red;
+  /*width: 25em;
+		height: 25em;
+		margin-left: 22em;*/
+	}
