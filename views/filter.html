@@ -5,44 +5,94 @@
     <title>FoodMap</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/filter.css">
-<body class="hidden-lg">
+<body >
   <header>
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-            <h1 class="col-xs-12 col-sm-12"> FoodMap: Tracing the perfect meal for you</h1>
+            <h1 class="col-xs-12 col-sm-12"> FoodMap: Tracing your perfect meal</h1>
             <hr>
         </div>
       </div>
     </div>
    </header>
     <figure>
-      <img src="../assets/img/mapa.png" alt="maps" class="map img-responsive">
+      <!--map image-->
+      <img src="../assets/img/mapa.png" alt="map" class="map col-xs-12">
     </figure>
+    <!-- Selecting food-images-->
     <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h2>Im craving for...</h2>
-            <form class="form-inline">
-                <div class="form-group has-success has-feedback">
-                  <div class="input-group">
-                    <span class="input-group-addon glyphicon glyphicon-search"></span>
-                    <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status" placeholder="Type your craving here">
-                  </div>
-                  <span id="inputGroupSuccess3Status" class="sr-only">(success)</span>
-                </div>
-              </form>
+            <h3>Im craving for...</h3>
+            <select id="select" name="options">
+              <option value="" hidden>Select your craving here</option>
+              <option value="Pizza">Pizza</option>
+              <option value="Calzone">Calzone</option>
+              <option value="Spaghetti">Spaghetti</option>
+              <option value="Fine Desserts">Fine desserts</option>
+            </select>
           </div>
         </div>
       </div>
-    
+      <!-- food images: pizza -->
+      <div class="row hidden">
+      <div class="img-rounded col-xs-12 col-md-4" >
+        <img src="../assets/img/pizza1.jpg" alt="1" id="pizza">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/pizza2.jpg" alt="2" id="pizza">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/pizza3.jpg" alt="3" id="pizza">
+      </div>
+      </div>
+      <!-- food images: calzone -->
+      <div class="row hidden">
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/calzone1.jpg" alt="1" id="calzone">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/calzone2.jpg" alt="2" id="calzone">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/calzone3.jpg" alt="3" id="calzone">
+      </div>
+      </div>
+      <!-- food images: sphaguetti -->
+      <div class="row ">
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/fideos.jpg" alt="1" id="noodles">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/fideos2.jpg" alt="2" id="noodles">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/fideos3.jpg" alt="3" id="noodles">
+      </div>
+      </div>
+      <!-- food images: desserts -->
+      <div class="row hidden">
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/riaciarelli.jpg" alt="1" id="desserts">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/sfrapole.jpg" alt="2" id="desserts">
+      </div>
+      <div class="img-rounded col-xs-12 col-md-4">
+        <img src="../assets/img/tiramisu.jpg" alt="3" id="desserts">
+      </div>
+      </div>
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"></script>
-    <script src="../js/filter2.js"></script>
     <script src="../js/filter.js"></script>
 </body>
 </html>

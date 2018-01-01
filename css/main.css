@@ -13,17 +13,18 @@ figure {
  height: 100vh;
 }
 
-h1, h2{
+h1{
   position: relative;
   color: white; /*#321414;*/
   margin-top: 6em;
   text-align: center;
 }
 
+.loading{
+  margin-top: 2em;
+  text-align: center;
+}
+
 i {
-  color: green; /*#321414;*/
-  position: relative;
-  justify-content: center;
-  top: 5em;
-  left: 
+  color: white; /*#321414;*/
 }

@@ -3,15 +3,32 @@
     margin: 0;
     padding: 0;
 	}
-	
+
 	body {
-		font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(../assets/img/background2.webp);
+    background-repeat: no-repeat;
+    background-position: left right;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color:white;
+		font-family: 'Rye', cursive;
 		text-align: center;
 	}
 
 	.map {
-		outline: 2px solid red;
-  /*width: 25em;
-		height: 25em;
-		margin-left: 22em;*/
+    margin: 2em 0em 2em 0em;
 	}
+
+  select, option {
+    color: black;
+    height: 2.5em;
+    width: 19em;
+    margin: 3em;
+  }
+
+   #pizza, #calzone, #noodles, #desserts {
+    margin: 1em;
+    outline: 8px dotted gold;
+    border-radius: 1em;
+  }
