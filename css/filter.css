@@ -24,11 +24,15 @@
     color: black;
     height: 2.5em;
     width: 19em;
-    margin: 3em;
+    margin: 5%;
   }
 
    #pizza, #calzone, #noodles, #desserts {
     margin: 1em;
     outline: 8px dotted gold;
     border-radius: 1em;
+  }
+
+  div img:hover {
+   filter: grayscale(70%);
   }
