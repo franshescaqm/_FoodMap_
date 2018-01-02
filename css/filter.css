@@ -4,10 +4,6 @@
     padding: 0;
 	}
 
-html, body {
-  overflow: scroll;
-}
-
 	body {
     background-image: url(../assets/img/background2.webp);
     background-repeat: no-repeat;
